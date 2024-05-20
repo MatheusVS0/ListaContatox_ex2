@@ -1,0 +1,114 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(166, 203, 252);
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contatos{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    
+}
+
+.items{
+    visibility: hidden;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.items a{
+    width: 30px;
+    height: 30px;
+}
+
+.cont{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(241, 237, 237);
+    margin: 1rem;
+    width: calc((100% / 3) - 2rem);
+    box-shadow: 2px 2px 5px black;
+}
+
+.cont .info{
+    margin-top: 8px;
+}
+
+.contatos :hover {
+    background-color: rgb(222, 220, 220);
+}
+
+.contatos :hover .items{
+    visibility: visible;
+}
+
+.contatos img {
+    box-shadow: 2px 2px 5px black;
+}
+
+.contatos .dv {
+    background-size: 400px 230px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    
+}
+
+.contatos .div1{
+    background-image: url(./images/penacony.jpg);
+}
+
+.contatos .div2{
+    background-image: url(./images/Honkai-star-rail-Xianzhou-Luofu-1024x575.jpg);
+}
+
+.contatos .div3{
+    background-image: url(./images/0e4uksn0spwa1.png);
+    
+}
+
+.contatos .div4{
+    background-image: url(./images/Court_of_Fontaine.webp);
+}
+
+.contatos .div5{
+    background-image: url(./images/Genshin-Impact-3.1-Desert-Zone.jpg);
+}
+
+.contatos .div6{
+    background-image: url(./images/f79df798f0f6493919d1c5c20263614b.jpg);
+}
+
+.contatos img{
+    margin-top: 170px;
+}
+
+
+.items img{
+    width: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+}
